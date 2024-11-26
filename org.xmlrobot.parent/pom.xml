@@ -7,6 +7,17 @@
 	<version>1.0</version>
 	<packaging>pom</packaging>
 	<name>org.xmlrobot.parent</name>
+	<description>The parent project is the foundation for a suite of related XML-based tools or libraries to build a future  Extensible Abstract Operative System (EAOS).
+	org.xmlrobot.parent project is a structured Maven Parent Project, a frequently XML programming order in Maven builds. 
+	This implementation centralizes configuration, dependencies, and properties that are shared across multiple child projects (often referred to as sub-projects or &quot;modules&quot;). 
+	The parent project contains a single pom.xml file that defines settings, dependency management, plugins, and other configurations that will be inherited by all child projects. 
+	It defines project-wide properties like Java version, dependency versions, or custom variables to maintain consistency. 
+	Instead of duplicating configurations across multiple projects, these are maintained centrally in the parent POM.</description>
+	<organization>
+		<name>xmlrobot.org</name>
+		<url>http://xmlrobot.org</url>
+	</organization>
+	<url>http://github.com/xmlrobot/parent</url>
 	<modules>
 		<module>../org.xmlrobot.common</module>
 		<module>../org.xmlrobot.core</module>
